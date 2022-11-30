@@ -42,12 +42,9 @@ import {
   SidebarModule,
   TabsModule,
   UtilitiesModule,
-  TableModule,
 } from '@coreui/angular';
 
 import { IconModule, IconSetService } from '@coreui/icons-angular';
-import { CorteModule } from './views/corte/corte.module';
-import { HttpClientModule } from '@angular/common/http';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true,
@@ -65,7 +62,6 @@ const APP_CONTAINERS = [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    HttpClientModule,
     AvatarModule,
     BreadcrumbModule,
     FooterModule,
@@ -89,8 +85,6 @@ const APP_CONTAINERS = [
     BadgeModule,
     ListGroupModule,
     CardModule,
-    CorteModule,
-    TableModule
   ],
   providers: [
     {
