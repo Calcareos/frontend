@@ -15,26 +15,14 @@ export const navItems: INavData[] = [
     title: true
   },
   {
-    name: 'Pages',
-    url: '/login',
-    iconComponent: { name: 'cil-star' },
-    children: [
+    name: 'Corte',
+    url : '/corte',
+    iconComponent : {name : 'cil-crop'},
+    children : [
       {
-        name: 'Login',
-        url: '/login'
-      },
-      {
-        name: 'Register',
-        url: '/register'
-      },
-      {
-        name: 'Error 404',
-        url: '/404'
-      },
-      {
-        name: 'Error 500',
-        url: '/500'
+        name: 'Listar Ordenes',
+        url:'/corte/lista'
       }
     ]
-  },
+  }
 ];
